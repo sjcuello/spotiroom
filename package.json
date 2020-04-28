@@ -1,28 +1,16 @@
 {
-  "name": "spotiroom",
+  "name": "active-class-name",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
-    "start": "next start",
-    "build": "next build"
-
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sjcuello/spotiroom.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sjcuello/spotiroom/issues"
-  },
-  "homepage": "https://github.com/sjcuello/spotiroom#readme",
+  "author": "Remy Sharp <remy@leftlogic.com>",
   "dependencies": {
-    "next": "^9.3.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  }
+    "next": "latest",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "license": "ISC"
 }

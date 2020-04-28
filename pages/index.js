@@ -1,5 +1,10 @@
-export default class extends React.Component {
-  render() {
-    return <h1 > Hola mundo < /h1>;
-  }
-}
+import Nav from '../components/Nav'
+
+const IndexPage = () => (
+  <>
+    <Nav />
+    <p>Hello, I'm the index page</p>
+  </>
+)
+
+export default IndexPage
